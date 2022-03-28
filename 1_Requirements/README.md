@@ -51,7 +51,7 @@ The main objevtive of this project are:
   |H_02|Selection of user choice|Implemented|
   |H_03|Arithmetic operations|Implemented|
   |H_04|Trignometric Operations|Implemented|
-  |H_05|Logarithmic Operations||Not Implemented|
+  |H_05|Logarithmic Operations|Not Implemented|
   |H_06|Exit the program|Implemented|
   
   # Low_Level_Requirements
