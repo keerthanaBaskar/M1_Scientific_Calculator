@@ -9,41 +9,41 @@ The main objevtive of this project are:
 * To perform the required operation mentioned by the user.
 * To meet the requirement by giving the same result as output.
 ## SWOT Analysis
-# Strength:
+## Strength:
 
     * It can solve the basic arithmetic operations.
     * Some complex operation such as square root and trignometric operations are performed.
-# Weakness:
+## Weakness:
 
    * In case of trignometric calculations,it invloves most complex functions which leads to missing of values.
-# Oppurtunities:
+## Oppurtunities:
  
    * Exponential , Trignometric calculations can be implemented to higher.
-# Threats:
+## Threats:
     
     * If the user enters the high data than the fixed size, it throws error and return by quitting the function.
     * The user needs to enter the same fixed data to get the required output.
 ## *** 4 W's and 1H ***
- # WHAT
+ ## WHAT
    
    - This project deals with solving a mathematical operation.
- # WHERE
+ ## WHERE
  
    -It is used in schools,colleges,mathematics and in technology.
- # WHEN
+ ## WHEN
   
    - This project is widely used in many situation where it can be used in needed functions like trignometric operations.
- # WHY
+ ## WHY
  
    - As this project is a simple function, it is easy to use for begineers.
- # HOW
+ ## HOW
  
     - Implemented using simple switch cases and other functions in c.
     - It is implemented in C language for both Windows and Linus OS.
     - It is developed using multifile approach.
-## Detail Requirements:
+# Detail Requirements:
  
- # High_Level_Requirements:
+ ## High_Level_Requirements:
   
   |ID|DESCRIPTION|STATUS
   |-------|-------|-------|
@@ -54,7 +54,7 @@ The main objevtive of this project are:
   |H_05|Logarithmic Operations|Not Implemented|
   |H_06|Exit the program|Implemented|
   
-  # Low_Level_Requirements
+  ## Low_Level_Requirements
   
   |ID|DESCRIPTION|HLR-ID|STATUS|
   |-------|-------|-------|-------|
