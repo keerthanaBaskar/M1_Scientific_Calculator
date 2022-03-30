@@ -2,6 +2,7 @@
 #include "unity_internals.h"
 #include<stdlib.h>
 #define PROJECT_NAME "scientific_calculator"
+
 extern void test_add();
 extern void test_sub();
 extern void test_multiply();
@@ -18,7 +19,8 @@ extern void test_tanx();
 extern void test_secx();
 extern void test_cosecx();
 extern void test_cotx();
-extern void test_example();
+//extern void test_example();
+
 void setUp(void)
 {
 
@@ -30,6 +32,7 @@ void tearDown(void)
 int main(void)
 {
     UNITY_BEGIN();
+    
     RUN_TEST(test_add);
     RUN_TEST(test_sub);
     RUN_TEST(test_multiply);
@@ -46,7 +49,8 @@ int main(void)
     RUN_TEST(test_secx);
     RUN_TEST(test_cosecx);
     RUN_TEST(test_cotx);
-    RUN_TEST(test_example);
+    //RUN_TEST(test_example);
+    
     return UNITY_END();
 }
     
