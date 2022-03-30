@@ -2,6 +2,9 @@
 
 This project is based upon scientific calculator using C language.In this project, a version of scientific calculator program in c which will perform basic arithmetic operation like addition,subtraction,multiplication division,modulus along with some scientific and trignometric operations,depending on the input from the user.
  
+ ## Badges
+ ### Build on Linux
+ [![Build CI - Linux](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml)
 
 
 
