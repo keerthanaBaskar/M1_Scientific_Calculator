@@ -9,7 +9,8 @@ This project is based upon scientific calculator using C language.In this projec
  [![Cppcheck Analysis](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/cppcheck_analysis.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/cppcheck_analysis.yml)
  ### Unit Testing
  [![Unit Testing - Unity](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/unittesting.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/unittesting.yml)
-
+### Codacy
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cdf5e2eb3f6f43aa93eb1dacb7f39ea8)](https://www.codacy.com/gh/keerthanaBaskar/M1_Scientific_Calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=keerthanaBaskar/M1_Scientific_Calculator&amp;utm_campaign=Badge_Grade)
 
 
 ## Folder Structure
