@@ -5,6 +5,8 @@ This project is based upon scientific calculator using C language.In this projec
  ## Badges
  ### Build on Linux
  [![Build CI - Linux](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml)
+ ### CPPCheck Analysis
+ [![Cppcheck Analysis](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/cppcheck_analysis.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/cppcheck_analysis.yml)
 
 
 
