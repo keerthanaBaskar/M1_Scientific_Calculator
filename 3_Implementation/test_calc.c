@@ -2,7 +2,11 @@
 #include "unity_internals.h"
 #include<stdlib.h>
 #define PROJECT_NAME "scientific_calculator"
-
+/* Prototypes for all the test functions */
+/**
+ * @brief Testing function for scientific calculator
+ * 
+ */
 extern void test_add();
 extern void test_sub();
 extern void test_multiply();
@@ -20,19 +24,22 @@ extern void test_secx();
 extern void test_cosecx();
 extern void test_cotx();
 //extern void test_example();
-
+/* Required by the unity test framework */
 void setUp(void)
 {
 
 }
+/* Required by the unity test framework */
 void tearDown(void)
 {
 
 }
+/* Start of the application */ 
 int main(void)
 {
+    /* Initiate the unity test framework */
     UNITY_BEGIN();
-    
+    /* Run test functions */
     RUN_TEST(test_add);
     RUN_TEST(test_sub);
     RUN_TEST(test_multiply);
@@ -50,7 +57,7 @@ int main(void)
     RUN_TEST(test_cosecx);
     RUN_TEST(test_cotx);
     //RUN_TEST(test_example);
-    
+    /* Close the unity test framework */
     return UNITY_END();
 }
     

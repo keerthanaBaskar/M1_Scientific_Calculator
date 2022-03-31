@@ -1,3 +1,13 @@
+/**
+ * @file calc.c
+ * @author Keerthana B (keerthana.b.2018.cse@ritchennai.edu.in)
+ * @brief This is the main program where the project is run
+ * @version 0.1
+ * @date 2022-03-31
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -34,7 +44,12 @@ int secx(int n1);
 int cosecx(int n1);
 
 int cotx(int n1);
-
+/* Start of the application */
+/**
+ * @brief Main program
+ * 
+ * @return int 
+ */
 int main()
 {
     int a,b,*p1,*p2;

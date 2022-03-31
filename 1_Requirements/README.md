@@ -38,9 +38,9 @@ The main objective of this project are:
    - As this project is a simple function, it is easy to use for begineers.
  ### HOW
  
-    - Implemented using simple switch cases and other functions in c.
-    - It is implemented in C language for both Windows and Linus OS.
-    - It is developed using multifile approach.
+   - Implemented using simple switch cases and other functions in c.
+   - It is implemented in C language for both Windows and Linus OS.
+   - It is developed using multifile approach.
 # Detail Requirements:
  
  ## High_Level_Requirements:

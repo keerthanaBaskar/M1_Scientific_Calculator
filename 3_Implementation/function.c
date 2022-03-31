@@ -1,35 +1,84 @@
+/**
+ * @file function.c
+ * @author Keerthana B (keerthana.b.2018.cse@ritchennai.edu.in)
+ * @brief This is the functions program where the project is run
+ * @version 0.1
+ * @date 2022-03-31
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include "math.h"
 #include "unity.h"
 #define PI 3.14159
-
+/**
+ * @brief Addition of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return addition value of operand1 and operand2
+ */
 int add(int n1,int n2)
 {    
     int res=n1 + n2;
     return res;
 }
+/**
+ * @brief Subtraction of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return subtraction value of operand1 and operand2
+ * 
+ */
 int sub(int n1,int n2)
 {    
     int res=n1 - n2;
     return res;
 }
+/**
+ * @brief Multiplication of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return multiplication value of operand1 and operand2
+ * 
+ */
 int multiply(int n1,int n2)
 {
      int res=n1 * n2;
      return res;
-}     
+}  
+/**
+ * @brief Division of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return division value of operand1 and operand2
+ * 
+ */   
 int divide(int n1,int n2)
 {
     int res=n1 / n2;
     return res;
     
 }
+/**
+ * @brief Modulus of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return modulus value of operand1 and operand2
+ * 
+ */
 int mod(int n1,int n2)
 {    
     int res=n1 % n2;
     return res;
 }
+/**
+ * @brief Factorial of a number
+ * @param[in] operand1
+ * @return factorial value of operand1 
+ * 
+ */
 int fact(int n1)
 {
     int res=1;
@@ -46,13 +95,24 @@ int fact(int n1)
         res = res*i;*/
     return res;
 }
-
+/**
+ * @brief Power of two numbers
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return power value of operand1 and operand2
+ */
 int power(int n1,int n2) 
 {
     int res;
     res=pow(n1,n2);
     return res;
 }
+/**
+ * @brief Square of a number
+ * @param[in] operand1
+ * @return Square value of a operand
+ * 
+ */
 int square(int n1)
 {
     int res;
@@ -60,55 +120,102 @@ int square(int n1)
     return res;
 
 }
+/**
+ * @brief Cube of a number
+ * @param[in] operand1
+ * @return Cube value of operand1
+ * 
+ */
 int cube(int n1)
 {
     int res;
     res=pow(n1,3);
     return res;
 }
+/**
+ * @brief Squareroot of a number
+ * @param[in] operand1
+ * @return squareroot of operand1
+ * 
+ */
 int squareroot(int n1)
 {
     int res;
     res= sqrt(n1);
     return res;
 }
+/**
+ * @brief Sine value of a number
+ * @param[in] operand1
+ * @return sine value of operand1
+ * 
+ */
 int sinx(int n1)
 {
     float res;
     res=sin(n1 * (PI/180));      
     return res;
 }
+/**
+ * @brief Cosine value of a number
+ * @param[in] operand1
+ * @return cosine value of  operand1
+ * 
+ */
 int cosx(int n1)
 {
     float res;
     res=cos(n1 * (PI/180));
     return res;
 }
+/**
+ * @brief Tangent value of a number
+ * @param[in] operand1
+ * @return tangent value of operand1
+ * 
+ */
 int tanx(int n1)
 {
     float res;
     res=tan(n1 * (PI/180));
     return res; 
-}    
+} 
+/**
+ * @brief Secant value of a number
+ * @param[in] operand1
+ * @return secant value of operand1
+ * 
+ */   
 int secx(int n1)
 {
     float res;
     res=1/cos(n1 * (PI/180));
     return res;
 }
+/**
+ * @brief Cosecant value of a number
+ * @param[in] operand1
+ * @return cosecant value of operand1
+ * 
+ */
 int cosecx(int n1)
 {
     float res;
     res=1/sin(n1 * (PI/180));
     return res;
 }
+/**
+ * @brief Cotangent value of a number
+ * @param[in] operand1
+ * @return cotangent value of operand1
+ * 
+ */
 int cotx(int n1)
 {
     float res;
     res=1/tan(n1 * (PI/180));
     return res;
 }
-
 
 
 void test_add(void)
