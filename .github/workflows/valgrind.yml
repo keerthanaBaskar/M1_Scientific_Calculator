@@ -18,7 +18,7 @@ jobs:
          sudo apt-get -y install valgrind 
          sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
     - name: make test
-      run: make -C 3_Implementation/ test
-    - name: Valgrind
-      run: valgrind ./3_Implementation/Test_Scientific_Calculator.out
+      run: | 
+        make test -C Scientific_Calculator_C/#_Implementation/
+        valgrind ./Scientific_Calculator_c/3_Implementation/build/Test_Scientific_Calculator.out
     
