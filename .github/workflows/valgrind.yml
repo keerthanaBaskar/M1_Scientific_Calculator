@@ -13,12 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: apt install dependency
-      run:  |
-         sudo apt-get -y install valgrind 
-         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
-    - name: make test
-      run: | 
-        make test -C Scientific_Calculator_C/#_Implementation/
-        valgrind ./Scientific_Calculator_c/3_Implementation/build/Test_Scientific_Calculator.out
-    
+    - name: update
+      run:  sudo apt-get update
+    - name: Install Valgrind
+      run: sudo apt-get install valgrind
