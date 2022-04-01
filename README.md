@@ -13,6 +13,7 @@ This project is based upon scientific calculator using C language.In this projec
  | F01 - F16 | 3 | 3 | 16 | 16 |
  ## Challenges faced and How was it come
  | No | Challenge | Solution |
+ |----|-----------|----------|
  | 1 | Testing the source code | Cleared by finding the test assertion pass cases are fixed |
  | 2 | Doxygen | Documentation in doxygen by checking the installation properly |
  | 3 | Valgrind | Resolved by finding the error in the documentation file |
