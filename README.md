@@ -19,6 +19,7 @@ This project is based upon scientific calculator using C language.In this projec
 ## Folder Structure
 | Folder | Description |
 |--------|-------------|
+| 0.Certificates | Certificates |
 | 1.Requirements | Documents detailing requirements |
 | 2.Design | Documents specifying design details |
 | 3.Implementation | All code and documentation |
