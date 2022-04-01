@@ -4,10 +4,35 @@
 ## Introduction
 In this project, a version of scientific calculator program in c which will perform basic arithmetic operation like addition,subtraction,multiplication division,modulus along with some scientific and 
 trignometric operations,depending on the input from the user.
+## Research
+The Scientific Calculator System does not involve any complex operations. It is easy to apply the operations in the systems to find the required result rather than 
+spending the time by applying the techniques and formulas. Thus by finding and studying all these facts,the necessary functions has been implemented to get the proper results in a required or better way. 
 ## Objective
 The main objective of this project are:
 * To perform the required operation mentioned by the user.
 * To meet the requirement by giving the same result as output.
+## Cost and Featues
+### Cost
+The cost implementation of this project is minimal to none. Depending on the project extensions,how it is built and all the requirement will meet the cost and it can be varied accordingly to the market and business need.
+### Features
+| Feature ID | Feature Name | Features |
+|------------|--------------|----------|
+| F01 | Addition | add();takes the input form user and returns a+b |
+| F02 | Subtraction | sub();takes the input from user and returns a-b |
+| F03 | Multiplication | multiply();takes the input form user and returns a * b |
+| F04 | Division | divide();takes the input form user and returns a/b |
+| F05 | Modulus | mod();takes the input form user and returns a%b |
+| F06 | Factorial | fact();takes the input form user and returns a! |
+| F07 | Power | power();takes the input form user and returns a^b |
+| F08 | Square | square();takes the input form user and returns a^2 |
+| F09 | Cube | cube();takes the input form user and returns a^3 |
+| F10 | Squareroot | squareroot();takes the input form user and returns sqrt(a) |
+| F11 | Sine | sinx();takes the input form user and returns sin(a) |
+| F12 | Cosine | cosx();takes the input form user and returns cos(a) |
+| F13 | Tangent | tanx();takes the input form user and returns tan(a) |
+| F14 | Secant | secx();takes the input form user and returns sec(a) |
+| F15 | Cosecant | cosecx();takes the input form user and returns cosec(a) |
+| F16 | Cotangent | cotx();takes the input form user and returns cot(a) |
 ## SWOT Analysis
 ### Strength:
 
@@ -41,29 +66,42 @@ The main objective of this project are:
    - Implemented using simple switch cases and other functions in c.
    - It is implemented in C language for both Windows and Linus OS.
    - It is developed using multifile approach.
-# Detail Requirements:
+## Detail Requirements:
  
  ## High_Level_Requirements:
   
-  |ID|DESCRIPTION|STATUS
+  | ID | DESCRIPTION | STATUS |
   |-------|-------|-------|
-  |H_01|User shall view the operations available|Implemented|
-  |H_02|Selection of user choice|Implemented|
-  |H_03|Arithmetic operations|Implemented|
-  |H_04|Trignometric Operations|Implemented|
-  |H_05|Logarithmic Operations|Not Implemented|
-  |H_06|Exit the program|Implemented|
+  | H_01 | User shall view the operations available | Implemented |
+  | H_02 | Selection of user choice | Implemented |
+  | H_03 | Arithmetic operations | Implemented |
+  | H_04 | Single input operations | Implemented |
+  | H_05 | Trignometric Operations | Implemented |
+  | H_06 | Logarithmic Operations | Not Implemented |
+  | H_07 | Exit the program | Implemented |
   
   ## Low_Level_Requirements
   
-  |ID|DESCRIPTION|HLR-ID|STATUS|
+  | ID | DESCRIPTION | HLR-ID | STATUS |
   |-------|-------|-------|-------|
-  |L_01|List of operations displayed|H_01|Implemented|
-  |L_02|Input the user|H_02|Implemented|
-  |L_03|Perform the addition for 1|H_03|Implemented|
-  |L_04|Perform the subtraction for 2|H_03|Implemented|
-  |L_05|Perform the square operation for 8|H_03|Implemented|
-  |L_06|Perform the sine operation for 11|H_04|Implemented|
-  |L_07|Perform the log operation|H_05|Not Implemented|
-  |L_08|Exit the program for 0|H_06|Implemented|
+  | L_01 | List of operations displayed | H_01 | Implemented |
+  | L_02 | Input the user | H_02 | Implemented |
+  | L_03 | Perform the addition for 1 | H_03 | Implemented |
+  | L_04 | Perform the subtraction for 2 | H_03 | Implemented |
+  | L_05 | Perform the multiplication for 3 | H_03 | Implemented |
+  | L_06 | Perform the division for 4 | H_03 | Implemented |
+  | L_07 | Perform the modulus for 5 | H_03 | Implemented |
+  | L_08 | Perform the power for 6 | H_03 | Implemented |
+  | L_09 | Perform the factorial operation for 7 | H_04 | Implemented |
+  | L_10 | Perform the square operation for 8 | H_04 | Implemented |
+  | L_11 | Perform the cube operation for 9 | H_04 | Implemented |
+  | L_12 | Perform the squareroot operation for 10 | H_04 | Implemented |
+  | L_13 | Perform the sine operation for 11 | H_05 | Implemented |
+  | L_14 | Perform the cosine operation for 12 | H_05 | Implemented |
+  | L_15 | Perform the tangent operation for 13 | H_05 | Implemented |
+  | L_16 | Perform the secant operation for 14 | H_05 | Implemented |
+  | L_17 | Perform the cosecant operation for 15 | H_05 | Implemented |
+  | L_18 | Perform the tangent operation for 16| H_05 | Implemented |
+  | L_19 | Perform the log operation | H_06 | Not Implemented |
+  | L_20 | Exit the program for 0 | H_07 | Implemented |
 
