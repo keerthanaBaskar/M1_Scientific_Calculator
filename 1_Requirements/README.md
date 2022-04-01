@@ -70,30 +70,30 @@ The cost implementation of this project is minimal to none. Depending on the pro
  
  ## High_Level_Requirements:
   
-  | ID | DESCRIPTION | STATUS |
-  |-------|-------|-------|
-  | H_01 | User shall view the operations available | Implemented |
-  | H_02 | Selection of user choice | Implemented |
-  | H_03 | Arithmetic operations | Implemented |
-  | H_04 | Single input operations | Implemented |
-  | H_05 | Trignometric Operations | Implemented |
-  | H_06 | Logarithmic Operations | Not Implemented |
-  | H_07 | Exit the program | Implemented |
+  | ID | DESCRIPTION | STATUS | Category |
+  |-------|-------|-------|------------------|
+  | H_01 | User shall view the operations available | Implemented | Technical |
+  | H_02 | Selection of user choice | Implemented | Technical |
+  | H_03 | Arithmetic operations | Implemented | Technical |
+  | H_04 | Single input operations | Implemented | Technical |
+  | H_05 | Trignometric Operations | Implemented | Technical |
+  | H_06 | Logarithmic Operations | Not Implemented | Technical |
+  | H_07 | Exit the program | Implemented | Technical |
   
   ## Low_Level_Requirements
   
-  | ID | DESCRIPTION | HLR-ID | STATUS |
+  | ID | DESCRIPTION | HLR-ID | STATUS (Implemented/Future) | 
   |-------|-------|-------|-------|
   | L_01 | List of operations displayed | H_01 | Implemented |
   | L_02 | Input the user | H_02 | Implemented |
   | L_03 | Perform the addition for 1 | H_03 | Implemented |
   | L_04 | Perform the subtraction for 2 | H_03 | Implemented |
-  | L_05 | Perform the multiplication for 3 | H_03 | Implemented |
-  | L_06 | Perform the division for 4 | H_03 | Implemented |
-  | L_07 | Perform the modulus for 5 | H_03 | Implemented |
-  | L_08 | Perform the power for 6 | H_03 | Implemented |
-  | L_09 | Perform the factorial operation for 7 | H_04 | Implemented |
-  | L_10 | Perform the square operation for 8 | H_04 | Implemented |
+  | L_05 | Perform the multiplication for 3 | H_03 | Implemented | 
+  | L_06 | Perform the division for 4 | H_03 | Implemented | 
+  | L_07 | Perform the modulus for 5 | H_03 | Implemented | 
+  | L_08 | Perform the power for 6 | H_03 | Implemented | 
+  | L_09 | Perform the factorial operation for 7 | H_04 | Implemented | 
+  | L_10 | Perform the square operation for 8 | H_04 | Implemented | 
   | L_11 | Perform the cube operation for 9 | H_04 | Implemented |
   | L_12 | Perform the squareroot operation for 10 | H_04 | Implemented |
   | L_13 | Perform the sine operation for 11 | H_05 | Implemented |
