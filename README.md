@@ -4,6 +4,7 @@ This project is based upon scientific calculator using C language.In this projec
  
  ## Badges
  ### Build CI - Linux
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccc97f33e941417283bedc806b442c71)](https://app.codacy.com/gh/keerthanaBaskar/M1_Scientific_Calculator?utm_source=github.com&utm_medium=referral&utm_content=keerthanaBaskar/M1_Scientific_Calculator&utm_campaign=Badge_Grade_Settings)
  [![Build CI - Linux](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/c-cpp.yml)
  ### Build CI - Windows
  [![Build CI - Windows](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/Windows-cpp.yml/badge.svg)](https://github.com/keerthanaBaskar/M1_Scientific_Calculator/actions/workflows/Windows-cpp.yml)
