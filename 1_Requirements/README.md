@@ -1,5 +1,5 @@
 ## M1_Scientific Calculator
-# ** SCIENTIFIC CALCULATOR **
+#                     ** SCIENTIFIC CALCULATOR **
   A Scientific Calculator or digital calculator is a type of electronic calculator, usually but not handheld,designed to calculate problem in science,Engineering,Mathematics etc.,
 ## Introduction
 In this project, a version of scientific calculator program in c which will perform basic arithmetic operation like addition,subtraction,multiplication division,modulus along with some scientific and 
