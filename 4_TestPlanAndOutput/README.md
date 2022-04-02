@@ -42,4 +42,4 @@
 - Checked the output for user defined inputs.
 - Presented the outputs in tabular form for easy and better understanding
 - Mentioned all the inputs for easy understanding.
-- Both high level test plan and low level test plana are shown.
+- Both high level test plan and low level test plans are shown.
