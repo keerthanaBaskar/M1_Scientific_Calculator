@@ -105,3 +105,8 @@ The cost implementation of this project is minimal to none. Depending on the pro
   | L_19 | Perform the log operation | H_06 | Not Implemented |
   | L_20 | Exit the program for 0 | H_07 | Implemented |
 
+  ### Best methods to be followed
+  * Used functions to decrease dependency on main functions.
+  * Used pointers, functions and built-in functions to accept the input from user and store the values which helped in creating easy design of scientific calculator.
+  * Printf statements have been placed only whenever necessary to maximum lines of code and confusions.
+  * Created header file so that the function can be used else where ever required without any difficulty.
